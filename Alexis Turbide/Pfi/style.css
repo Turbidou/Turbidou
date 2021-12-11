@@ -1,0 +1,60 @@
+img {
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(0, 255, 255);
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(images/Fond.png);
+    background-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding-left: 40px;
+}
+
+li {
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.fleche {
+    background-image: url(images/ICON_submenu.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position-x: 175px;
+    background-position-y: 25px;
+}
+
+ul.sous_menu {
+    display: none;
+}
+
+li:hover {
+    color: rgb(0, 255, 255);
+    background-color: rgba(0, 0, 255, 0.2);
+}
+
+li:hover>ul.sous_menu {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 90%;
+    color: white;
+}
