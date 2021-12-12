@@ -13,8 +13,7 @@ a:hover {
 
 body {
     color: rgb(255, 255, 255);
-    background-image: url(images/Fond.png);
-    background-size: 150%;
+    background-color: darkslategray;
     font-family: Arial, Helvetica, sans-serif;
 }
 
