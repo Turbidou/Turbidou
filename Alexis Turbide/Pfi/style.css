@@ -1,7 +1,12 @@
 img {
     width: 20px;
 }
-
+h1{
+    text-align: center;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+}
 a {
     text-decoration: none;
     color: white;
@@ -17,10 +22,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    padding-left: 40px;
-}
-
 li {
     display: block;
     position: relative;
@@ -32,16 +33,22 @@ li {
     padding-top: 20px;
     padding-left: 10px;
 }
-.Menu .a{
+.Menu{
     display: block;
-    position: relative;
-    width: 100px;
-    height: 40px;
+    position: absolute;
+    right: 25%;
+    width: 50%;
+    height: 20px;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 7px;
     padding-left: 10px;
+    text-align: center;
+}
+.Menu .a{
+    margin: 10px;
 }
 .fleche {
     background-image: url(images/ICON_submenu.png);
@@ -50,7 +57,10 @@ li {
     background-position-x: 175px;
     background-position-y: 25px;
 }
-
+ul{
+    position: absolute;
+    top: 30%;
+}
 ul.sous_menu {
     display: none;
 }
