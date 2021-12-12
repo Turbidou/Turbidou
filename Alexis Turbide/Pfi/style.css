@@ -13,7 +13,8 @@ a:hover {
 
 body {
     color: rgb(255, 255, 255);
-    background-color: darkslategray;
+    background-image: url(images/Fond.png);
+    background-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -31,6 +32,14 @@ li {
     margin-bottom: 10px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.fleche {
+    background-image: url(images/ICON_submenu.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position-x: 175px;
+    background-position-y: 25px;
 }
 
 ul.sous_menu {
