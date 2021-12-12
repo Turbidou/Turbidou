@@ -51,9 +51,7 @@ li {
     margin: 10px;
 }
 iframe{
-    position: absolute;
-    top: 40%;
-    right: 25%;
+    position: relative;
 }
 .fleche {
     background-image: url(images/ICON_submenu.png);
