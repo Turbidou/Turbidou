@@ -51,10 +51,11 @@ li {
     margin: 10px;
 }
 audio{
+    width: 400px;
     position: absolute;
     top: 40%;
     right: 10%;
-    margin: 500px;
+    margin: 20px;
 }
 iframe{
     position: absolute;
