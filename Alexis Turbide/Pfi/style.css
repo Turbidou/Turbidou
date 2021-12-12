@@ -54,6 +54,7 @@ iframe{
     position: fixed;
     top: 40%;
     right: 15%;
+    background-color: black;
 }
 .fleche {
     background-image: url(images/ICON_submenu.png);
