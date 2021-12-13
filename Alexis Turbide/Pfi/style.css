@@ -50,6 +50,13 @@ li {
 .Menu .a{
     margin: 10px;
 }
+.menu .li{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
 audio{
     width: 400px;
     position: relative;
