@@ -13,7 +13,7 @@ img{
     left: 39%;
 }
 th{
-    border:  solid ;
+    border:  solid white;
 }
 th audio{
     position: relative;
@@ -137,11 +137,12 @@ ul{
 ul.sous_menu {
     display: none;
 }
-
+.stylep3 li:hover{
+    color: rgb(255 24 0);
+}
 li:hover>ul.sous_menu {
     display: block;
     position: absolute;
     top: 0px;
     left: 90%;
-    color: white;
 }
