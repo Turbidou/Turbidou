@@ -137,9 +137,6 @@ ul{
 ul.sous_menu {
     display: none;
 }
-.stylep3 li:hover{
-    color: rgb(255 24 0);
-}
 li:hover>ul.sous_menu {
     display: block;
     position: absolute;
