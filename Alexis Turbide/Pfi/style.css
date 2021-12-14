@@ -5,11 +5,28 @@ body {
 }
 h1,h2,h3,h4,p{
     text-align: center;
+    margin: 40px;
 }
 img{
     width: 300px;
     position: relative;
     left: 39%;
+}
+th{
+    border:  solid ;
+}
+th audio{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+td img{
+    width:60%;
+    position: relative;
+    left: 25%;
+    transform: translate(-10%);
+    margin-bottom: 40%;
+    margin-top: 40%;
 }
 nav{
     width: 100%;
@@ -88,11 +105,14 @@ th li{
 .active {
     background-color: rgb(255 24 0);
 }
-
+.Video{
+    margin: 0 auto;
+}
 iframe{
     position: absolute;
-    top: 20%;
-    right: 15%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
     background-color: black;
     border-radius: 30px;
     border: 10px black;
