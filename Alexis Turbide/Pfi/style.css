@@ -5,22 +5,50 @@ body {
 }
 h1,h2,h3,h4,p{
     text-align: center;
-    color:rgb(255 24 0) ;
 }
 img{
     width: 300px;
     position: relative;
     left: 39%;
 }
-nav {
-    position: sticky;
+nav{
     width: 100%;
-    height: 40px;
-    background-color: rgb(43, 43, 43);
-    margin: 0;
-    margin-top: 1%;
-    text-align: center;
-} 
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul{
+    position: relative;    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li :hover{
+    color: rgb(255 24 0);
+    transition: 0.7s;
+}
+.menu ul li::after{
+    content: '';
+    width: 0;
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: -2px;
+    transition: 0.7s;
+    background:rgb(255 24 0) ;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
 li a {
     display: block;
     color: white;
@@ -45,15 +73,7 @@ nav li{
     padding: 0;
     margin: 0;
 }
-.menu_about{
-    position: fixed;
-    right: 30px;
-    color: black;
-}
-.menu {
-    float: left;
-    margin: 0;
-}
+
 li{
     list-style-type: none;
 }
